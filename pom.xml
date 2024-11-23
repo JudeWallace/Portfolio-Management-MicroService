@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.portfoliomanagementservice</groupId>
-	<artifactId>portfoliomanagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>portfoliomanagement</name>
+	<artifactId>com.portfoliomanagementservice</artifactId>
 	<description>Microservice to handle users portfolios </description>
 	<url/>
 	<licenses>
@@ -29,6 +29,7 @@
 	<properties>
 		<java.version>23</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -40,15 +41,17 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

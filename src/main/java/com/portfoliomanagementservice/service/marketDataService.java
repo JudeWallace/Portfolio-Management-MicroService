@@ -1,4 +1,4 @@
-package com.portfoliomanagementservice.portfoliomanagement.service;
+package com.portfoliomanagementservice.service;
 
 import org.springframework.stereotype.Service;
 
